@@ -1,0 +1,68 @@
+body {
+    background-color: powderblue;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Pacifico", sans-serif;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+.img {
+    width: 90%;
+}
+
+h3 strong {
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color: brown;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    color: #4ECCA3;
+    font-size: 6rem;
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #4C3D3D;
+    font-size: 1rem;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+    .container {
+        width: 90%;
+        font-size: 2rem;
+    }
+
+    .dice {
+        width: 100px;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    h1 {
+        margin: 21px;
+        font-size: 52px;
+    }
+
+    footer {
+        margin-top: 25%;
+    }
+}
